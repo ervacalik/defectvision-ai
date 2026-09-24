@@ -1,0 +1,43 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node.js and frontend
+node_modules/
+dist/
+build/
+coverage/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Data and machine learning outputs
+data/
+datasets/
+ml/models/
+ml/checkpoints/
+ml/runs/
+*.pt
+*.pth
+*.onnx
+
+# Operating system files
+.DS_Store
+Thumbs.db 
